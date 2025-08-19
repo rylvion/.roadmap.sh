@@ -1,0 +1,88 @@
+:root {
+    --subtitle-color: green;
+    --subheading-color: #007ac0;
+    --first-border: grey;
+    --lineheader-border: darkgrey;
+}
+
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px
+}
+
+body {
+    width: 60%;
+    margin: 1.25rem auto;
+    border: solid var(--first-border);
+    padding: 1.875rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.subtitle {
+    color: var(--subtitle-color);
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 0.5rem;
+}
+
+.subheader {
+    margin-bottom: 1.9rem;
+}
+
+.subheading {
+    color: var(--subheading-color);
+    font-size: 1.2rem;
+    line-height: 0.125rem;
+}
+
+#name {
+    margin-right: 8rem;
+    border-top: solid var(--lineheader-border);
+    line-height: 1rem;
+    padding-top: 2.2rem;
+    padding-bottom: 1rem;
+}
+
+.last-line {
+    margin-bottom: 3rem;
+}
+
+.last-smth {
+    margin-bottom: 2rem;
+}
+
+.skills {
+    line-height: 0.7rem;
+}
+
+.internet-links {
+    list-style: none;
+    padding-left: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.internet-links li {
+    margin-bottom: 0.625rem;
+    line-height: 1.4px;
+}
+
+.internet-links a {
+    color: var(--subheading-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.internet-links a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    color: #ff6600; 
+    margin-right: 8px;
+    transform: rotate(-10deg); 
+}
+
+.icon:hover {
+    transform: rotate(20deg)
+}
